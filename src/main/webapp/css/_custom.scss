@@ -477,3 +477,36 @@ li a:hover {
   
   margin-top:25px;
 }
+
+
+/************* asset publisher des entrées d'actualité dans Accueil ***********/
+
+/* le conteneur des cartes */
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_9oOcI00sni8U {
+  width: 700px;
+  margin-inline-start: -150px;
+  margin-block-start: 50px;
+}
+/* les cartes */
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_9oOcI00sni8U .asset-abstract{
+  background:white;
+  margin-bottom:30px;
+  margin-left:-5px;
+  box-shadow:2px 2px 2px #888888;
+  width:600px;
+  height: auto;
+  border-radius:3px;
+  margin-left:20px;
+}
+/* titre de l'actualité */
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_9oOcI00sni8U .asset-title{
+  padding: 15px;
+  margin: 0px;
+}
+/* résumé de l'actualité */
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_9oOcI00sni8U .asset-content{
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  margin: 0px;
+}
