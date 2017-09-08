@@ -1,0 +1,479 @@
+/* These inject tags are used for dynamically creating imports for themelet styles, you can place them where ever you like in this file. */
+
+/* inject:imports */
+/* endinject */
+
+/* This file allows you to override default styles in one central location for easier upgrade and maintenance. */
+#wrapper {
+    
+    margin: 0 auto;
+    width:100% !important;
+    padding:0;
+    position:relative;
+    background:#f5f5f5;
+}
+
+#banner{
+  margin-top:-20px;
+  background:#455a64;
+  height:90px;
+  box-shadow:1px 5px 5px #888888;
+  
+}
+
+img{
+  height:66px;
+  width:180px;
+  margin-top:23px;
+}
+#sign-in{
+  margin-left:1220px;
+  color:white;
+}
+
+#sign-in:hover{
+  text-decoration:none;
+  color:#ff5722;
+}
+
+#heading{
+ 
+   height:20px;
+}
+
+#navigation{
+  background:#455a64;
+  margin-top:-10px;
+  height:10px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height:50px;
+}
+
+li {
+    display: inline;
+    float: left;
+}
+
+#layout_1{
+  margin-right:35px;
+  margin-top:30px;
+  margin-left:200px;
+  
+}
+#layout_2,#layout_3,#layout_11{
+  margin-top:30px;
+  margin-left:15px;
+  margin-right:35px;
+}
+#layout_12{
+  margin-left:15px;
+  marging-right:5px;
+  margin-top:30px;
+  
+}
+
+
+li a {
+  color:white;
+  font-family:time new roman;
+}
+li a:hover {
+   color:#ff5722;
+   text-decoration:none;
+   
+}
+#column-3{
+  margin-top:-100px;
+  width:340px;
+  margin-left:-30px;
+   
+}
+.portlet-title-text{
+  color:#455a64;
+}
+
+#footer{
+  margin-top:auto;
+  height:60px;
+  background-color:#455a64 ;
+ 
+}
+#madiv1{
+ 
+  height:20px;
+}
+#mYp{
+  color:white;
+  text-align: center;
+  
+}
+#yui_patched_v3_18_1_1_1504100808903_1296{
+  background:#cfd8dc;
+  height:300px;
+}
+#layout_5 a,#layout_6 a,#layout_7 a,#layout_8 a
+{
+  color:black;  
+}
+/* notre banque (nav bar a gauche dans la page d'accueil) */
+#portlet_DIRECTION_INSTANCE_oGo75An4JfsZ{
+  margin-top:230px;
+  width:250px;
+}
+#portlet_DIRECTION_INSTANCE_oGo75An4JfsZ #direcBan{
+ 
+  margin-left:-11px;
+  margin-top:-174px;
+  background:#cfd8dc;
+  height:450px;
+  width:250px;
+  border-radius:2px;
+  box-shadow: 5px 5px 5px grey;
+}
+#portlet_DIRECTION_INSTANCE_oGo75An4JfsZ .portlet-title-editable{
+ /*le titre du portlet 1er facon */
+  margin-left:-550px;
+
+}
+ /*le titre du portlet 2eme facon */
+#portlet_DIRECTION_INSTANCE_oGo75An4JfsZ .portlet-title-text{
+   margin-left:-550px;
+}
+#myh2vide{
+	height:35px;
+}
+#myh2{
+  color:#908B8B;
+  font-size:20px;
+  font-weight:700;
+  margin-left:20px;
+}
+
+.nav-nested{
+  margin-left:30px;
+  height:300px;
+}
+
+#mali{
+	width:100%;
+	margin-top:8px;
+}
+
+#manav{
+	height:90px;
+}
+#monlien{
+	color:black;
+	}
+.collapse-icon{
+  color:black;
+}
+
+/*lien vers les aps*/
+/*pour empecher l'apparence des titres de portlets*/
+
+/*le portlet "vos app"*/
+#vosapp{
+  width:300px;
+  font-size:20px;
+  font-weight:200;
+  margin-top:270px;
+  margin-left:240px;
+}
+/*portlet de "vos-guide*/
+#guide{
+  width:250px;
+  font-size:20px;
+  font-weight:200;
+  margin-left:250px;
+  margin-top:40px;
+}
+/*  lien vers app (à droite de pa page d'accueil) */
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_tWaLHo5tcTBT {
+  margin-top:160px;
+  margin-left:140px;
+  width:315px;
+}
+/*le container qui contient tous les liens vers les apps */
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_tWaLHo5tcTBT  .list-unstyled
+{
+  height:auto;
+}
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_tWaLHo5tcTBT  .list-unstyled .bookmark{
+  background:#cfd8dc;
+  width:100%;
+  height:50px;
+  box-shadow: 5px 5px 5px grey;
+  border-top-left-radius:25px;
+  border-bottom-left-radius:25px;
+  margin-top:-0.05px;
+}
+
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_tWaLHo5tcTBT  .list-unstyled .bookmark a {
+  color:#ff5722;
+  margin-left:80px;
+}
+/*titre du portlet"acceder a vos apps */
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_tWaLHo5tcTBT .portlet-title-editable{
+ color:black;
+ margin-left:10px;
+ font-size:20px;
+ font-weight:200;
+ 
+}
+/*titre du portlet"acceder a vos apps */
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_tWaLHo5tcTBT .portlet-title-text{
+ color:black;
+ margin-left:10px;
+ font-size:20px;
+ font-weight:200;
+ 
+}
+
+.subscribe-action{
+  background:#f5f5f5;
+  height: 20px;
+}
+
+/*lien vers les guides */
+/* la section qui englobe tous  le portlet */
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_IfLVql0DX0eg{
+  width:314px;
+  margin-left:125px;
+  margin-top:10px;
+  height:auto;
+}
+/*le texte guide à vos disposition  1 er facon */
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_IfLVql0DX0eg .portlet-title-editable{
+  
+  margin-left:25px;
+  color:black;
+  font-size:20px;
+  font-weight:200;
+}
+/* le titre "guide a vos dispositioons" 2éme facon */
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_IfLVql0DX0eg .portlet-title-text{
+  margin-left:25px;
+  color:black;
+  font-size:20px;
+  font-weight:200;
+}
+/* la ou il ya les liens */
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_IfLVql0DX0eg .asset-abstract{
+  background:#cfd8dc;
+  width:100%;
+  height:55px;
+  border-top-left-radius:25px;
+  border-bottom-left-radius:25px; 
+  margin-top:10px;
+  text-align: center;
+  box-shadow: 5px 5px 5px grey;
+  margin-left:11px;
+  
+}
+/* les liens */
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_IfLVql0DX0eg a{
+  margin-left:25px;
+  color:#ff5722;
+  font-size:20px;
+  font-weight:200;
+}
+
+/*navbar dans notre banque */
+#direcBan2{
+  margin-top:-75px;
+  margin-left:-11px;
+  width:300px;
+  height:600px;
+  margin-bottom:-21px;
+  box-shadow:2px 2px 2px #888888;
+   
+}
+
+/* notre banque page*/
+ /* asset publisher */
+ #portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_zK3QYqPpV3PJ
+ {
+   margin-left:-100px;
+   margin-top:70px;
+ }
+/* la ou le titre du text 1er facon */
+#portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_zK3QYqPpV3PJ .portlet-title-text{
+  color:#ff5722 ;
+  margin-left:0px;
+  margin-top:-40px;
+}
+/* titre de navbar */
+#portlet_Direction2_INSTANCE_cMRYdgXUoy04 .portlet-title-text{
+  color:#f5f5f5;
+}
+/* drhf */
+/*asset publisher */
+#portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_evwsqLL8UATI .portlet-content-container{
+ 
+  margin-top:35px;
+  margin-left:-80px;
+  
+}
+/*  le titre "DRHF" 1er facon */
+#portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_evwsqLL8UATI .portlet-title-text{
+  color:#ff5722 ;
+  margin-left:-80px;
+  margin-top:40px;
+}
+/*  le titre "DRHF" 2éme facon */
+#portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_evwsqLL8UATI .portlet-title-editable{
+  color:#ff5722 ;
+  margin-left:-80px;
+  margin-top:40px;
+}
+
+/* titre du navbar  */
+#portlet_Direction2_INSTANCE_KMFHUpvorTgE .portlet-title-text{
+  color:#f5f5f5;
+}
+/* nav bar à gauche */
+#portlet_Direction2_INSTANCE_KMFHUpvorTgE{
+  
+  width:300px;
+}
+/* dai */
+/*asset publisher */
+
+#portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_UvDaOYuLqvG5{
+   margin-top:60px;
+   margin-left:-80px;
+  }
+/*titre du asset*/
+ #portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_UvDaOYuLqvG5 .portlet-title-text{
+  color:#ff5722;
+  margin-left:0px;
+  margin-top:-30px;
+}
+/* titre du nav-bar à gauche */
+#portlet_Direction2_INSTANCE_r0YaUHDWJ6C0 .portlet-title-text{
+  color:#f5f5f5;
+   
+}
+ 
+/*navbar à gauche */
+#portlet_Direction2_INSTANCE_r0YaUHDWJ6C0{
+  width:300px;
+}
+
+/* 101-khetabi */
+/*titre du asset 1er facon */
+#portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_VZsnAjKJC7Ym .portlet-title-text{
+ 
+  margin-top:-30px;
+  color:#ff5722;
+}
+/*asset publisher*/
+#portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_VZsnAjKJC7Ym{
+  margin-top:70px;
+}
+/*titre du navbar a gauche */
+#portlet_Direction2_INSTANCE_GzBfxUSEU3sH .portlet-title-text{
+  
+  color:#f5f5f5;
+}
+#portlet_Direction2_INSTANCE_94BGfKdDkH9A{
+  width:300px;
+}
+/*405-skikda */
+/*titre du asset */
+#portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_CZoD916GP6kU .portlet-title-text{
+ 
+  margin-top:-30px;
+  color:#ff5722;
+}
+/*asset publisher*/
+#portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_CZoD916GP6kU{
+  margin-top:70px;
+  margin-left:-70px;
+}
+/*titre du navbar a gauche */
+#portlet_Direction2_INSTANCE_94BGfKdDkH9A .portlet-title-text{
+  
+  color:#f5f5f5;
+}
+
+
+/* ddi */
+/*titre du asset */
+#portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_fZBt9tmLkUjU .portlet-title-text{
+ 
+  margin-top:-30px;
+  color:#ff5722;
+}
+/*asset publisher*/
+#portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_fZBt9tmLkUjU{
+  margin-top:70px;
+  margin-left:-70px;
+}
+/*titre du navbar a gauche */
+#portlet_Direction2_INSTANCE_jTEuZ9JMl7wm .portlet-title-text{
+  
+  color:#f5f5f5;
+}
+
+
+/*  la partie des assets publisher de la page d accueil + actualité */
+/*  la partie des assets publisher de la page d accueil + actualité */
+/*  la partie des assets publisher de la page d accueil + actualité */
+/*  la partie des assets publisher de la page d accueil + actualité */
+/*  la partie des assets publisher de la page d accueil + actualité */
+
+/* asset publisher de la  page d accueil */
+/* asset publisher de la  page d accueil */
+/* asset publisher de la  page d accueil */
+
+/* pour cacher le titre 1er facon */
+ #portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_aqi4n2ojnsM2 .portlet-title-editable
+{
+  
+  color:#f5f5f5;
+}
+/* pour cacher le titre 2éme facon */
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_aqi4n2ojnsM2 .portlet-title-text{
+  
+  color:#f5f5f5;
+}
+/* le container du portlet <section> */
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_aqi4n2ojnsM2{
+  
+  margin-top:35px;
+  height:auto;
+  width:700px;
+  margin-left:-150px;
+}
+/* une div au dessus des actualites */
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_aqi4n2ojnsM2 .subscribe-action{
+  
+}
+/* container qui contient une actualite */
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_aqi4n2ojnsM2 .asset-abstract{
+  background:white;
+  margin-top:30px;
+  margin-left:-5px;
+  box-shadow:2px 2px 2px #888888;
+  width:600px;
+  border-radius:3px;
+  height:150px;
+  margin-left:20px;
+}
+/* contient l ecriture en orange au dessus de la description de l actualite */
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_aqi4n2ojnsM2 .asset-title a{
+  color:#ff5722;;
+}
+/* la  description de l actualite */
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_aqi4n2ojnsM2  .asset-content
+{
+  
+  margin-top:25px;
+}
