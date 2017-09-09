@@ -510,3 +510,51 @@ li a:hover {
   padding-bottom: 15px;
   margin: 0px;
 }
+
+/************* asset publisher des entrées d'actualité dans Actualité ***********/
+
+/* le conteneur des cartes */
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_y5sExFIzIhI8 {
+  width: 100%;
+  margin-inline-start: 30px;
+  margin-block-start: 30px;
+}
+/* les cartes */
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_y5sExFIzIhI8 .asset-abstract{
+  background:white;
+  margin-bottom:30px;
+  margin-left:-5px;
+  box-shadow:2px 2px 2px #888888;
+  width:95%;
+  height: auto;
+  border-radius:3px;
+  margin-left:20px;
+}
+/* titre de l'actualité */
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_y5sExFIzIhI8 .asset-title{
+  padding: 15px;
+  margin: 0px;
+}
+/* résumé de l'actualité */
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_y5sExFIzIhI8 .asset-content{
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  margin: 0px;
+}
+
+
+/****************** asset publisher des liens d'app dans Actualité ********************/
+
+/* conteneur */
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_b04gdYx6jyZA {
+  margin-top: 100px;
+  width: 75%;
+  float: right;
+}
+/* titre Accédez à vos applications */
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_b04gdYx6jyZA .portlet-title-text {
+  font-size: 20px;
+}
+
+
