@@ -556,5 +556,28 @@ li a:hover {
 #portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_b04gdYx6jyZA .portlet-title-text {
   font-size: 20px;
 }
+/* longueur de la liste des liens selon le nombre des signets */
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_b04gdYx6jyZA .list-unstyled {
+  height: auto;
+}
+/* background des liens */
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_b04gdYx6jyZA .bookmark {
+  background: #cfd8dc;
+  width: 100%;
+  height: 50px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  margin-top: -0.05px;
+  padding-top: 13px;
+  text-align: center;
+}
+/* style des signets au survol */
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_b04gdYx6jyZA .list-unstyled .h3:hover{
+  box-shadow: 5px 5px 5px grey;
+}
+/* text des liens */
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_b04gdYx6jyZA .bookmark a {
+  color: #ff5722;
+}
 
 
