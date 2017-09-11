@@ -21,32 +21,32 @@
   
 }
 
-img{
+#banner img{
   height:66px;
   width:180px;
   margin-top:23px;
 }
-#sign-in{
+#banner #sign-in{
   margin-left:1220px;
   color:white;
 }
 
-#sign-in:hover{
+#banner #sign-in:hover{
   text-decoration:none;
   color:#ff5722;
 }
 
-#heading{
+#banner #heading{
  
    height:20px;
 }
 
-#navigation{
+#banner #navigation{
   background:#455a64;
   margin-top:-10px;
   height:10px;
 }
-ul {
+#banner ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -54,23 +54,23 @@ ul {
     height:50px;
 }
 
-li {
+#banner li {
     display: inline;
     float: left;
 }
 
-#layout_1{
+#banner #layout_1{
   margin-right:35px;
   margin-top:30px;
   margin-left:200px;
   
 }
-#layout_2,#layout_3,#layout_11{
+#banner #layout_2,#banner #layout_3,#banner #layout_11{
   margin-top:30px;
   margin-left:15px;
   margin-right:35px;
 }
-#layout_12{
+#banner #layout_12{
   margin-left:15px;
   marging-right:5px;
   margin-top:30px;
@@ -78,11 +78,11 @@ li {
 }
 
 
-li a {
+#banner li a {
   color:white;
   font-family:time new roman;
 }
-li a:hover {
+#banner li a:hover {
    color:#ff5722;
    text-decoration:none;
    
@@ -122,16 +122,17 @@ li a:hover {
 }
 /* notre banque (nav bar a gauche dans la page d'accueil) */
 #portlet_DIRECTION_INSTANCE_oGo75An4JfsZ{
-  margin-top:230px;
-  width:250px;
+  margin: auto;
+  float: left;
+  width: 70%;
 }
 #portlet_DIRECTION_INSTANCE_oGo75An4JfsZ #direcBan{
  
   margin-left:-11px;
-  margin-top:-174px;
+  margin-top: auto;
   background:#cfd8dc;
   height:450px;
-  width:250px;
+  width:auto;
   border-radius:2px;
   box-shadow: 5px 5px 5px grey;
 }
@@ -193,54 +194,47 @@ li a:hover {
   margin-left:250px;
   margin-top:40px;
 }
-/*  lien vers app (à droite de pa page d'accueil) */
+
+
+/****************** asset publisher des liens d'app dans Accueil ********************/
+
+/* conteneur */
 #portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_tWaLHo5tcTBT {
-  margin-top:160px;
-  margin-left:140px;
-  width:315px;
+  margin-right: -130px;
+  margin-top: 200px;
+  width: 75%;
+  float: right;
 }
-/*le container qui contient tous les liens vers les apps */
-#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_tWaLHo5tcTBT  .list-unstyled
-{
-  height:auto;
+/* titre Accédez à vos applications */
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_tWaLHo5tcTBT .portlet-title-text {
+  font-size: 20px;
 }
-#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_tWaLHo5tcTBT  .list-unstyled .bookmark{
-  background:#cfd8dc;
-  width:100%;
-  height:50px;
+/* longueur de la liste des liens selon le nombre des signets */
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_tWaLHo5tcTBT .list-unstyled {
+  height: auto;
+}
+/* background des liens */
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_tWaLHo5tcTBT .bookmark {
+  background: #cfd8dc;
+  width: 100%;
+  height: 50px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  margin-top: -0.05px;
+  padding-top: 13px;
+  text-align: center;
+}
+/* style des signets au survol */
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_tWaLHo5tcTBT .list-unstyled .h3:hover{
   box-shadow: 5px 5px 5px grey;
-  border-top-left-radius:25px;
-  border-bottom-left-radius:25px;
-  margin-top:-0.05px;
+}
+/* text des liens */
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_tWaLHo5tcTBT .bookmark a {
+  color: #ff5722;
 }
 
-#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_tWaLHo5tcTBT  .list-unstyled .bookmark a {
-  color:#ff5722;
-  margin-left:80px;
-}
-/*titre du portlet"acceder a vos apps */
-#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_tWaLHo5tcTBT .portlet-title-editable{
- color:black;
- margin-left:10px;
- font-size:20px;
- font-weight:200;
- 
-}
-/*titre du portlet"acceder a vos apps */
-#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_tWaLHo5tcTBT .portlet-title-text{
- color:black;
- margin-left:10px;
- font-size:20px;
- font-weight:200;
- 
-}
 
-.subscribe-action{
-  background:#f5f5f5;
-  height: 20px;
-}
-
-/*lien vers les guides */
+/************lien vers les guides **********************/
 /* la section qui englobe tous  le portlet */
 #portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_IfLVql0DX0eg{
   width:314px;
@@ -483,9 +477,13 @@ li a:hover {
 
 /* le conteneur des cartes */
 #portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_9oOcI00sni8U {
-  width: 700px;
+  width: 170%;
   margin-inline-start: -150px;
   margin-block-start: 50px;
+}
+/* titre du conteneur "Actualité" */
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_9oOcI00sni8U .portlet-title-text{
+  margin-inline-start: 30px;
 }
 /* les cartes */
 #portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_9oOcI00sni8U .asset-abstract{
@@ -493,7 +491,7 @@ li a:hover {
   margin-bottom:30px;
   margin-left:-5px;
   box-shadow:2px 2px 2px #888888;
-  width:600px;
+  width:95%;
   height: auto;
   border-radius:3px;
   margin-left:20px;
@@ -580,4 +578,103 @@ li a:hover {
   color: #ff5722;
 }
 
+/******** cacher la subscribe-action ******/
+.subscribe-action{
+  opacity: 0;
+  height: 20px;
+}
+
+
+/**************************fond documentaire *********************/
+/*** circulaires ***/
+/* marge de la liste des doc */
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_VnfMfBN05E1c{
+  margin-left:50px;
+  margin-top: 20px;
+}
+/* fond de la liste des doc*/
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_VnfMfBN05E1c tr {
+  background: white;
+}
+/* taille de la liste des doc */
+#p_p_id_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_VnfMfBN05E1c_{
+  width: 100%;
+}
+/*** notes ***/
+/* marge de la liste des doc */
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_sKjEDtXnIP5h{
+  margin-left:50px;
+}
+/* fond de la liste des doc*/
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_sKjEDtXnIP5h tr {
+  background: white;
+}
+/* taille de la liste des doc */
+#p_p_id_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_sKjEDtXnIP5h_{
+  width: 100%;
+}
+/*** modeles ***/
+/* marge de la liste des doc */
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_JFPwHMoc8APg{
+  margin-left:50px;
+}
+/* fond de la liste des doc*/
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_JFPwHMoc8APg tr {
+  background: white;
+}
+/* taille de la liste des doc */
+#p_p_id_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_JFPwHMoc8APg_{
+  width: 100%;
+}
+
+/*** guides ***/
+/* marge de la liste des doc */
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_ZEnp2ryYkjCM{
+  margin-left:50px;
+}
+/* fond de la liste des doc*/
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_ZEnp2ryYkjCM tr {
+  background: white;
+}
+/* taille de la liste des doc */
+#p_p_id_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_ZEnp2ryYkjCM_{
+  width: 100%;
+}
+
+
+/****************** asset publisher des liens d'app dans Fond documentaire ********************/
+
+/* conteneur */
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_8OIRpsOKf58N {
+  margin-top: 100px;
+  width: 75%;
+  float: right;
+}
+/* titre Accédez à vos applications */
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_8OIRpsOKf58N .portlet-title-text {
+  font-size: 20px;
+}
+/* longueur de la liste des liens selon le nombre des signets */
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_8OIRpsOKf58N .list-unstyled {
+  height: auto;
+}
+/* background des liens */
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_8OIRpsOKf58N .bookmark {
+  background: #cfd8dc;
+  width: 100%;
+  height: 50px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  margin-top: -0.05px;
+  padding-top: 13px;
+  text-align: center;
+}
+/* style des signets au survol */
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_8OIRpsOKf58N .list-unstyled .h3:hover{
+  box-shadow: 5px 5px 5px grey;
+}
+/* text des liens */
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_8OIRpsOKf58N .bookmark a {
+  color: #ff5722;
+}
 
