@@ -43,6 +43,14 @@
 		<#if has_navigation && is_setup_complete>
 			<#include "${full_templates_path}/navigation.ftl" />
 		</#if>
+
+                <#if is_setup_complete>
+	        	<@liferay_portlet["runtime"]
+		        	defaultPreferences=default_preferences
+			        portletProviderAction=portletProviderAction.VIEW
+			        portletProviderClassName="com.liferay.admin.kernel.util.PortalSearchApplicationType$Search"
+          		/>
+              </#if>
 	</header>
 
 	<section id="content">
